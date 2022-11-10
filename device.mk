@@ -26,7 +26,7 @@
 $(call inherit-product, device/sony/sm8350-common/common.mk)
 
 # Inherit from sony extra stuff
-$(call inherit-product, vendor/sony/pdx215-extra/extra.mk)
+$(call inherit-product-if-exists, vendor/sony/pdx215-extra/extra.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
