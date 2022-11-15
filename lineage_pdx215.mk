@@ -25,18 +25,18 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 IS_PHONE := true
-
+TARGET_FACE_UNLOCK_SUPPORTED := false
 PRODUCT_NAME := lineage_pdx215
 PRODUCT_DEVICE := pdx215
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony
-PRODUCT_MODEL := pdx215
+PRODUCT_MODEL := Xperia 1 III
 
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=pdx215 \
-    TARGET_PRODUCT=pdx215 \
-    PRIVATE_BUILD_DESC="Sony qssi 12 SKQ1.211006.001 user release-keys"
+    TARGET_DEVICE=Xperia 1 III \
+    TARGET_PRODUCT=Xperia 1 III \
+    PRIVATE_BUILD_DESC="Sony/pdx215/pdx215:11/RKQ1.211222.001/1:user/release-keys"
 
 BUILD_FINGERPRINT := Sony/qssi/qssi:12/SKQ1.211006.001/1:user/release-keys
