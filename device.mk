@@ -30,7 +30,7 @@ $(call inherit-product-if-exists, vendor/sony/pdx215-extra/extra.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1440
+TARGET_SCREEN_WIDTH := 1096
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
