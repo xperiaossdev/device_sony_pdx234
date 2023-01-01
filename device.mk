@@ -38,8 +38,9 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    $(LOCAL_PATH)/overlay
-
+    $(LOCAL_PATH)/overlay \
+    SonyPDX215SystemUIRes \
+    SonyPDX215FrameworksRes
 # XperiaSwitch
 PRODUCT_PACKAGES += \
     XperiaSwitch
