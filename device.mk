@@ -22,11 +22,11 @@
 # definition file).
 #
 
-# Inherit from sony sm8350-common
-$(call inherit-product, device/sony/sm8350-common/common.mk)
+# Inherit from sony sagami
+$(call inherit-product, device/sony/sagami/common.mk)
 
-# Inherit from sony extra stuff
-$(call inherit-product-if-exists, vendor/sony/pdx215-extra/extra.mk)
+# Inherit from sony extra
+$(call inherit-product-if-exists, vendor/sony/extra-sagami/extra.mk)
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2560

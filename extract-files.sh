@@ -16,9 +16,9 @@ set -e
 
 # Required!
 export DEVICE=pdx215
-export DEVICE_COMMON=sm8350-common
+export DEVICE_COMMON=saganu
 export VENDOR=sony
 
-export DEVICE_BRINGUP_YEAR=2022
+export DEVICE_BRINGUP_YEAR=2023
 
 "./../../${VENDOR}/${DEVICE_COMMON}/extract-files.sh" "$@"

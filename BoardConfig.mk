@@ -14,8 +14,8 @@
 # limitations under the License.
 #
 
-# Inherit from sony sm8350-common
--include device/sony/sm8350-common/BoardConfigCommon.mk
+# Inherit from sony sagami
+-include device/sony/sagami/BoardConfigCommon.mk
 
 DEVICE_PATH := device/sony/pdx215
 
