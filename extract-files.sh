@@ -16,7 +16,7 @@ set -e
 
 # Required!
 export DEVICE=pdx215
-export DEVICE_COMMON=saganu
+export DEVICE_COMMON=sagami
 export VENDOR=sony
 
 export DEVICE_BRINGUP_YEAR=2023

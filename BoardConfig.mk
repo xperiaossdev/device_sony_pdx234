@@ -24,7 +24,7 @@ TARGET_SCREEN_DENSITY := 420
 
 BOARD_KERNEL_CMDLINE += buildproduct=pdx215
 
-TARGET_KERNEL_SOURCE := kernel/sony/sm8350
+TARGET_KERNEL_SOURCE := kernel/sony/sagami
 TARGET_KERNEL_CONFIG := pdx215_defconfig
 
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
@@ -37,4 +37,4 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # inherit from the proprietary version
--include vendor/sony/pdx215/BoardConfigVendor.mk
+-include vendor/sony/sagami/pdx215/BoardConfigVendor.mk

@@ -1,4 +1,4 @@
-# Stock package version: Sony/qssi/qssi:13/TKQ1.220807.001/1:user/release-keys
+# Stock package version: Sony/XQ-BC52_EEA/XQ-BC52:13/61.2.A.0.382/061002A000038200046651803:user/release-keys
 
 # Camera
 vendor/bin/hw/vendor.somc.hardware.camera.provider@1.0-service
