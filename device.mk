@@ -51,4 +51,4 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/pdx215/pdx215-vendor.mk)
+$(call inherit-product, vendor/sony/sagami/pdx215/pdx215-vendor.mk)
