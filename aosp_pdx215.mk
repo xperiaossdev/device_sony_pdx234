@@ -24,7 +24,9 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from device.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Environment Flags
 IS_PHONE := true
+
 PRODUCT_NAME := aosp_pdx215
 PRODUCT_DEVICE := pdx215
 PRODUCT_MANUFACTURER := Sony
@@ -34,8 +36,6 @@ PRODUCT_MODEL := Xperia 1 III
 PRODUCT_GMS_CLIENTID_BASE := android-sonymobile
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE=pdx215 \
-    TARGET_PRODUCT=Xperia 1 III \
     PRIVATE_BUILD_DESC="XQ-BC52-user 13 61.2.A.0.382 61002A000038200046651803 release-keys"
 
 BUILD_FINGERPRINT := Sony/qssi/qssi:13/TKQ1.220807.001/1:user/release-keys
