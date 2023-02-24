@@ -42,7 +42,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay/SonyPDX215SystemUIRes
 
 # Inherit from vendor blobs
