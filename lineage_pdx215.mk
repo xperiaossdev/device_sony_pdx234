@@ -26,6 +26,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Environment Flags
 IS_PHONE := true
+TARGET_BUILD_WITH_LTO := true
 TARGET_SUPPORTS_QUICK_TAP := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 
