@@ -26,15 +26,6 @@
     <!-- Doze: does this device support STATE_DOZE_SUSPEND?  -->
     <bool name="doze_suspend_display_state_supported">false</bool>
 
-    <!-- FP Overlay Fix  -->
-<array name="config_sfps_sensor_props" translatable="false">
-        <item>@array/config_sfps_sensor_props_0</item>
-    </array>
-    <array name="config_sfps_sensor_props_0" translatable="false">
-        <item></item> <!--item>displayId</item-->
-        <item>50%</item> <!--item>sensorLocationY</item-->
-    </array>
-
 <!-- Whether the device supports Smart Pixels -->
 <bool name="config_supportSmartPixels">true</bool>
 
