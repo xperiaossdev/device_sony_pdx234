@@ -42,8 +42,7 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay/SonyPDX215SystemUIRes
+    $(LOCAL_PATH)/overlay
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/sony/sagami/pdx215/pdx215-vendor.mk)
