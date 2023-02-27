@@ -44,5 +44,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     $(LOCAL_PATH)/overlay
 
+# XperiaSwitch
+PRODUCT_PACKAGES += \
+    XperiaSwitch
+
 # Inherit from vendor blobs
 $(call inherit-product, vendor/sony/sagami/pdx215/pdx215-vendor.mk)
