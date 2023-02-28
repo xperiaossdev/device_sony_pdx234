@@ -37,10 +37,15 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0
 
 # Overlays
-PRODUCT_PACKAGES += \
+DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-cherish
+
+# Device-Specific Overlays
+PRODUCT_PACKAGES += \
     SonyPDX215SystemUIRes \
     SonyPDX215FrameworksRes
+
 # XperiaSwitch
 PRODUCT_PACKAGES += \
     XperiaSwitch
