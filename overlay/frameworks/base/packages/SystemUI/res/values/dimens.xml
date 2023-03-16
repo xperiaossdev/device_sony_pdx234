@@ -24,8 +24,8 @@
          burn-in on status bar and navigation bar. -->
     <dimen name="horizontal_max_shift">4.0dp</dimen>
     
-    <!-- Removes the stock awful padding which was next to the battery. -->
-    <dimen name="ongoing_appops_dot_min_padding">0.0dip</dimen>>
+    <!-- Removes the awful padding which was next to the battery icon/percentage. -->
+    <dimen name="ongoing_appops_dot_min_padding">0.0dip</dimen>
 
     <!-- the padding on the start of the statusbar -->
     <dimen name="status_bar_padding_start">16dp</dimen>
@@ -37,15 +37,15 @@
 
     <!-- The default height of the status bar used in {@link SystemBarUtils#getStatusBarHeight} to
          calculate the status bar height. -->
-    <dimen name="status_bar_height_default">35.85dp</dimen>
+    <dimen name="status_bar_height_default">35.00dp</dimen>
     <!-- Height of the status bar in portrait.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
-    <dimen name="status_bar_height_portrait">35.85dp</dimen>
+    <dimen name="status_bar_height_portrait">35.00dp</dimen>
     <!-- Height of the status bar in landscape.
          Do not read this dimen directly. Use {@link SystemBarUtils#getStatusBarHeight} instead.
          -->
-    <dimen name="status_bar_height_landscape">35.85dp</dimen>
+    <dimen name="status_bar_height_landscape">35.00dp</dimen>
 
      <!-- Location on the screen of the center of the fingerprint sensor. For devices with under
      display fingerprint sensors, this directly corresponds to the fingerprint sensor's location.
