@@ -28,10 +28,6 @@ $(call inherit-product, device/sony/sagami/common.mk)
 # Inherit from sony extra
 $(call inherit-product-if-exists, vendor/sony/extra-sagami/extra.mk)
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 2560
-TARGET_SCREEN_WIDTH := 1096
-
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxxhdpi
