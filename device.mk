@@ -43,7 +43,6 @@ DEVICE_PACKAGE_OVERLAYS += \
 
 # Device-Specific Overlays
 PRODUCT_PACKAGES += \
-    SonyPDX215SystemUIRes \
     SonyPDX215FrameworksRes
 
 # XperiaSwitch
