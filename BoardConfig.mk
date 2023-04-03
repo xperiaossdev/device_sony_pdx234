@@ -40,8 +40,8 @@ BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 TARGET_OTA_ASSERT_DEVICE := pdx215,XQ-BC42,XQ-BC52,XQ-BC62,XQ-BC72,SO-51B,SOG03,A101SO
 
 # Props
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/product.prop
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/vendor.prop
 
 # inherit from the proprietary version
 include vendor/sony/sagami/pdx215/BoardConfigVendor.mk
