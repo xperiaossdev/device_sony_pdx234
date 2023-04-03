@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_pdx215.mk
+    $(LOCAL_DIR)/aicp_pdx215.mk
 
 COMMON_LUNCH_CHOICES := \
-    cherish_pdx215-user \
-    cherish_pdx215-userdebug \
-    cherish_pdx215-eng
+    aicp_pdx215-user \
+    aicp_pdx215-userdebug \
+    aicp_pdx215-eng

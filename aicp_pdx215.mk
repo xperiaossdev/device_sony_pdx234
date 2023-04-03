@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Cherish stuff.
-$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
+# Inherit some common AICP stuff.
+$(call inherit-product, vendor/aicp/config/common_full_phone.mk)
 
 # Inherit from device.mk
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -33,33 +33,12 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1096
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Cherish-Specific Flags
-TARGET_USES_BLUR := true
-USE_PIXEL_CHARGING := true
-EXTRA_UDFPS_ANIMATIONS := false
-TARGET_INCLUDE_WIFI_EXT := false
-TARGET_SUPPORTS_QUICK_TAP  := false
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BUILD_GRAPHENEOS_CAMERA := false
-TARGET_INCLUDE_LIVE_WALLPAPERS := false
-TARGET_SUPPORTS_CALL_RECORDING := true
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_CARRIER_SETTINGS := false
-TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
-
 # Un|Officialify
-CHERISH_BUILD_TYPE := UNOFFICIAL
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.cherish.maintainer=Your Local GitHub Retard
-
-# GMS
-WITH_GMS := true
-TARGET_GAPPS_ARCH := arm64
-TARGET_USES_MINI_GAPPS := true
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    DEVICE_MAINTAINERS="Your Local GitHub Retard"
 
 # Device Identifiers
-PRODUCT_NAME := cherish_pdx215
+PRODUCT_NAME := aicp_pdx215
 PRODUCT_DEVICE := pdx215
 PRODUCT_MANUFACTURER := Sony
 PRODUCT_BRAND := Sony

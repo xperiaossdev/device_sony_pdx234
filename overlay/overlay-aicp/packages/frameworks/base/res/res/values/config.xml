@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  Copyright (C) 2020 AICP-ROM
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ -->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Configs -->
+
+    <!-- Whether device supports switching the display refreshrate -->
+    <bool name="config_device_supports_switch_refreshrate">true</bool>
+
+    <!-- Integer value of the minimal/base display refreshrate (usually 60) -->
+    <integer name="BaseRefresh">60</integer>
+
+    <!-- Integer value of the maximum/peak display refreshrate (e.g. 90) -->
+    <integer name="PeakRefresh">120</integer>
+
+    <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
+    <integer name="config_screenRecorderMaxFramerate">120</integer>
+
+    <!-- Whether device supports 5G networks -->
+    <bool name="config_device_supports_network5gswitch">true</bool>
+
+    <!-- Whether device supports offscreen gestures -->
+    <bool name="config_device_supports_gestures">true</bool>
+
+    <!-- Whether device supports vibration options -->
+    <bool name="config_device_supports_vidbrations">true</bool>
+
+    <!-- Paths -->
+
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
+
+    <!-- QS Tiles -->
+
+    <!-- Show/hide the QS tile, if device supports switching HighBrightness mode or not -->
+    <bool name="enableHBMModeTile">true</bool>
+
+    <!-- Defaults -->
+
+    <!-- Controls the navigation bar interaction mode:
+         0: 3 button mode (back, home, overview buttons)
+         1: 2 button mode (back, home buttons + swipe up for overview)
+         2: gestures only for back, home and overview -->
+    <integer name="config_navBarInteractionMode">2</integer>
+</resources>
