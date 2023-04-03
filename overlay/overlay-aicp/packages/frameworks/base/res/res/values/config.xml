@@ -37,17 +37,7 @@
     <bool name="config_device_supports_gestures">true</bool>
 
     <!-- Whether device supports vibration options -->
-    <bool name="config_device_supports_vidbrations">true</bool>
-
-    <!-- Paths -->
-
-    <!-- The CPU temperature sensor path, defaults to empty -->
-    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone0/temp</string>
-
-    <!-- QS Tiles -->
-
-    <!-- Show/hide the QS tile, if device supports switching HighBrightness mode or not -->
-    <bool name="enableHBMModeTile">true</bool>
+    <bool name="config_device_supports_vibrations">true</bool>
 
     <!-- Defaults -->
 
