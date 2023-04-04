@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aicp_pdx215.mk
+    $(LOCAL_DIR)/aosp_pdx234.mk
 
 COMMON_LUNCH_CHOICES := \
-    aicp_pdx215-user \
-    aicp_pdx215-userdebug \
-    aicp_pdx215-eng
+    aosp_pdx234-user \
+    aosp_pdx234-userdebug \
+    aosp_pdx234-eng

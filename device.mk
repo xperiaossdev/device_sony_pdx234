@@ -23,10 +23,10 @@
 #
 
 # Inherit from sony sagami
-$(call inherit-product, device/sony/sagami/common.mk)
+$(call inherit-product, device/sony/yodo/common.mk)
 
 # Inherit from sony extra
-$(call inherit-product-if-exists, vendor/sony/extra-sagami/extra.mk)
+$(call inherit-product-if-exists, vendor/sony/extra-yodo/extra.mk)
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
@@ -39,15 +39,15 @@ PRODUCT_PACKAGES += \
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-cherish
+    $(LOCAL_PATH)/overlay/custom
 
 # Device-Specific Overlays
 PRODUCT_PACKAGES += \
-    SonyPDX215FrameworksRes
+    SonyPDX234FrameworksRes
 
 # XperiaSwitch
 PRODUCT_PACKAGES += \
     XperiaSwitch
 
 # Inherit from vendor blobs
-$(call inherit-product, vendor/sony/sagami/pdx215/pdx215-vendor.mk)
+$(call inherit-product, vendor/sony/yodo/pdx234/pdx234-vendor.mk)

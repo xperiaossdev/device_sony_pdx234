@@ -14,18 +14,18 @@
 # limitations under the License.
 #
 
-# Inherit from sony sagami
--include device/sony/sagami/BoardConfigCommon.mk
+# Inherit from sony yodo
+-include device/sony/yodo/BoardConfigCommon.mk
 
-DEVICE_PATH := device/sony/pdx215
+DEVICE_PATH := device/sony/pdx234
 
 # Display
 TARGET_SCREEN_DENSITY := 420
 
-BOARD_KERNEL_CMDLINE += buildproduct=pdx215
+BOARD_KERNEL_CMDLINE += buildproduct=pdx234
 
-TARGET_KERNEL_SOURCE := kernel/sony/sagami
-TARGET_KERNEL_CONFIG := pdx215_defconfig
+TARGET_KERNEL_SOURCE := kernel/sony/yodo
+TARGET_KERNEL_CONFIG := pdx234_defconfig
 
 BOARD_MKBOOTIMG_ARGS += --base $(BOARD_KERNEL_BASE)
 BOARD_MKBOOTIMG_ARGS += --pagesize $(BOARD_KERNEL_PAGESIZE)
@@ -37,11 +37,10 @@ BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --header_version $(BOARD_BOOT_HEADER_VERSION)
 
 # OTA Assert
-TARGET_OTA_ASSERT_DEVICE := pdx215,XQ-BC42,XQ-BC52,XQ-BC62,XQ-BC72,SO-51B,SOG03,A101SO
+TARGET_OTA_ASSERT_DEVICE := pdx234,XQ-DQ42,XQ-DQ52,XQ-DQ62,XQ-DQ72
 
 # Props
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/props/product.prop
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/configs/props/vendor.prop
 
 # inherit from the proprietary version
-include vendor/sony/sagami/pdx215/BoardConfigVendor.mk
+include vendor/sony/yodo/pdx234/BoardConfigVendor.mk

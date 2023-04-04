@@ -15,8 +15,8 @@ fi
 set -e
 
 # Required!
-export DEVICE=pdx215
-export DEVICE_COMMON=sagami
+export DEVICE=pdx234
+export DEVICE_COMMON=yodo
 export VENDOR=sony
 
 export DEVICE_BRINGUP_YEAR=2023
